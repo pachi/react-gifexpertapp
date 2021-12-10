@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from "enzyme"
-import { GridItem } from "../components/GridItem"
+import { GridItem } from "../../components/GridItem"
 
 describe('Pruebas de GridItem', () => {
     const title = "Un título";

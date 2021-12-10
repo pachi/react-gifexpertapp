@@ -31,7 +31,7 @@ describe('Pruebas de GridItem', () => {
 
     test('debe tener clase animate__fadeIn', () => {
         const div = wrapper.find('div');
-        console.log(div.prop('className'));
+        // console.log(div.prop('className'));
         expect(div.prop('className').includes('animate__fadeIn')).toBe(true);
     })
 })
